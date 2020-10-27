@@ -1,0 +1,46 @@
+body{
+    background-color: darkgray;
+}
+
+#burger{
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    height: 35%;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.container{
+    padding-top: 16%;
+}
+
+.burgerInput{
+    width: 100%;
+}
+
+.eatBtn{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 60%;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 20px;
+}
+
+.card-body{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h1{
+    position: absolute;
+    margin-top: 8.5%;
+    left: 41.5%;
+    font-weight: bolder;
+    z-index: 11;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
