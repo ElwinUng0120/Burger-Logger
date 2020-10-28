@@ -28,7 +28,6 @@ $(document).ready(function(){
 
     $(".burgerInput").on("keydown", function(event){
         if(event.keyCode != 13) return;
-        console.log("keydown RAN");
         sendRequest();
     });
 });

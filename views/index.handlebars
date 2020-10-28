@@ -1,6 +1,6 @@
 <h1>Eat-Da-Burger!</h1>
 
-<img id="burger" src="./assets/img/burger.png" />
+<img id="burger" src="/assets/img/burger.png" />
 
 <div class="container">
     <div class="row d-flex justify-content-center">
@@ -11,10 +11,6 @@
     </div>
     <br>
     {{#each burgers}}
-        {{#if eaten }}
-            {{> burgers/burger-block state=true}}
-        {{else}}
-            {{> burgers/burger-block state=false}}
-        {{/if}}
+        {{> burgers/burger-block}}
     {{/each}}
 </div>
