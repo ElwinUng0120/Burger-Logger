@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-4">
+        <div class="card" style="display: {{#if eaten}}none{{else}}block{{/if}}">
+            <div class="card-body">
+                {{ name }}
+            </div>
+        </div>
+    </div>
+    <div class="col-4 d-flex justify-content-center">
+        <button type="button" class="btn btn-danger eatBtn" data-id="{{id}}" {{#if eaten}}disabled{{/if}}>
+            {{#if eaten}}ATE{{else}}EAT IT{{/if}}
+        </button>
+    </div>
+    <div class="col-4">
+        <div class="card" style="display: {{#if eaten}}block{{else}}none{{/if}}">
+            <div class="card-body ateBurger">
+                {{ name }}
+            </div>
+        </div>
+    </div>
+</div>
+<br>

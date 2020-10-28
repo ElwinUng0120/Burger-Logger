@@ -1,5 +1,4 @@
 const mysql = require('mysql');
-var connection;
 
 // if(process.env.JAWSDB_URL){
 //     connection = mysql.createConnection(process.env.JAWSDB_URL)
@@ -9,7 +8,7 @@ var connection;
 //         port: 3306,
 //         user: 'root',
 //         password: '90939065Elwin',
-//         database: ''
+//         database: 'burgerList'
 //     });
 // }
 
@@ -46,7 +45,7 @@ const db = new Database({
     port: 3306,
     user: "root",
     password: "90939065Elwin",
-    database: "employee_db"
+    database: "burgerList"
 });
 
 module.exports = db;

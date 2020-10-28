@@ -16,7 +16,8 @@ body{
 }
 
 .burgerInput{
-    width: 100%;
+    width: 80%;
+    height: 100%;
 }
 
 .eatBtn{
@@ -29,9 +30,19 @@ body{
     line-height: 20px;
 }
 
+.card{
+    border: 2px solid black;
+}
+
 .card-body{
     text-align: center;
     font-weight: bold;
+}
+
+.ateBurger{
+    color: grey; 
+    background-color: black;
+    opacity: 0.8;
 }
 
 

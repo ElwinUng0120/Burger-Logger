@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS burgerList;
+CREATE DATABASE burgerList;
+USE burgerList;
+CREATE TABLE burgers(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(255) NOT NULL,
+    eaten BOOLEAN DEFAULT(false)
+);
