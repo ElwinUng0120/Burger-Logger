@@ -4,6 +4,8 @@ const exphbs = require("express-handlebars");
 
 const PORT = 3000;
 
+require('dotenv').config();
+
 const app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
