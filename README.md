@@ -11,6 +11,19 @@ This project has the following abilities:
 
 <br>
 
+This project used MVC model and contains the following files:
+- connection.js: contains settings for connecting to the database
+- orm.js: general orm, which contains all SQL queries that will be used in the app
+- db folder: contains SQL codes for creating a database to work with the app
+- models/burger.js: specific orm, which specify what SQL queries are needed for this object
+- public folder: contains style.css and burgers.js for styling the app's page and managing events caused by user
+- routes/api_routes.js: contains API calls to work with burger.js
+- views folder: contains HTML files written with *Handlebars* to build the app's page without the use of JavaScript
+- package.json: contains general info on the app as well as all packages used in the app
+- server.js: setting up the server for API calls as well as serving the static page from *views* folder
+
+<br>
+
 This project was made using **HTML5**, **CSS**, **Bootstrap**, **JavaScript**, **jQuery**, **Node.js**, **Express.js**, **Handlebars** and **MySQL**<br>
 This project is currently hosted on heroku with the use of JAWSDB: https://salty-everglades-75204.herokuapp.com/ <br>
 
