@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+var db;
 
 // use this wrapper to create promise around mysql
 class Database {
@@ -27,9 +28,9 @@ class Database {
 
 
 if(process.env.JAWSDB_URL){
-    const db = new Database(process.env.JAWSDB_URL)
+    db = new Database(process.env.JAWSDB_URL)
 } else {
-    const db = new Database({
+    db = new Database({
         host: 'localhost',
         port: 3306,
         user: 'root',
