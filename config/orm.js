@@ -1,7 +1,7 @@
 const db = require('./connection.js');
 
 function getBurger(id){
-    return db.query("SELECT * FROM burgers" + (id ? `WHERE id=${id}` : ""));
+    return db.query("SELECT * FROM burgers " + (id ? `WHERE id=${id}` : ""));
 }
 
 function setBurger(id, state){
