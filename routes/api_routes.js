@@ -5,6 +5,7 @@ var router = express.Router();
 
 router.get("/", async function(req, res){
     const response = await burger.getBurger();
+    console.log(response);
     res.render("index", {burgers: response});
 });
 
