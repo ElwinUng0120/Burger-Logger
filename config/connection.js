@@ -26,16 +26,16 @@ class Database {
 }
 
 
-// /if(process.env.JAWSDB_URL){
+if(process.env.JAWSDB_URL){
     const db = new Database(process.env.JAWSDB_URL)
-// } else {
-//     const db = new Database({
-//         host: 's54ham9zz83czkff.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-//         port: 3306,
-//         user: 'h2s7o4f7i6ddc3mp',
-//         password: 'ucrl2azdf3yr57wb',
-//         database: 'w8pyt7g19620m1x3'
-//     }); 
-// }
+} else {
+    const db = new Database({
+        host: 'localhost',
+        port: 3306,
+        user: 'root',
+        password: '90939065Elwin',
+        database: 'burgers_db'
+    }); 
+}
 
 module.exports = db;
