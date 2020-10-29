@@ -12,6 +12,10 @@ const burger = {
 
     addBurger: function(name){
         return orm.addBurger(name);
+    },
+
+    clearBurgers: function(){
+        return orm.clearBurgers();
     }
     
 }

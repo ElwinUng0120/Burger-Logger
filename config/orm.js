@@ -12,4 +12,8 @@ function addBurger(name){
     return db.query("INSERT INTO burgers (`name`) VALUES(?)", [name]);
 }
 
-module.exports = { getBurger, setBurger, addBurger }
+function clearBurgers(){
+    return db.query("DELETE FROM burgers");
+}
+
+module.exports = { getBurger, setBurger, addBurger, clearBurgers }

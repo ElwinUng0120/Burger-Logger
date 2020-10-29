@@ -30,4 +30,13 @@ $(document).ready(function(){
         if(event.keyCode != 13) return;
         sendRequest();
     });
+
+    $(document).on("click", ".clearBtn", function(){
+        $.ajax("/api/burgers", {
+            type: "DELETE",
+        }).then(function(){
+            console.log("All evidence has been cleaned..");
+            location.reload();
+        })
+    })
 });

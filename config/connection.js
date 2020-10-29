@@ -26,9 +26,10 @@ class Database {
     }
 }
 
-
+// checking if there is a .env setup already
 if(process.env.JAWSDB_URL){
     db = new Database(process.env.JAWSDB_URL)
+// if there isn't a .env file, use local database
 } else {
     db = new Database({
         host: 'localhost',

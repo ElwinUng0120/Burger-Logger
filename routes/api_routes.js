@@ -25,4 +25,9 @@ router.post("/api/burgers", async function(req, res){
     res.send(response);
 });
 
+router.delete("/api/burgers", async function(req, res){
+    const response = await burger.clearBurgers();
+    res.send(response);
+})
+
 module.exports = router;
