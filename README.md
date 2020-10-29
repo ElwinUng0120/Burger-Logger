@@ -24,6 +24,7 @@ This project is currently hosted on heroku with the use of JAWSDB: https://salty
 <img src="./img/readme/addedBurger.jpg" alt="Added burger showcase" style="margin-left: auto; margin-right: auto" />
 
 ### Ate a Burger
+- To eat the burger, press the "EAT IT" button
 <img src="./img/readme/ateBurger.jpg" alt="Ate burger showcase" style="margin-left: auto; margin-right: auto" />
 
 ### To clear the list...
