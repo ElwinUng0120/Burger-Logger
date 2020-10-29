@@ -24,7 +24,7 @@ This project is currently hosted on heroku with the use of JAWSDB: https://salty
 <img src="./img/readme/addedBurger.jpg" alt="Added burger showcase" style="margin-left: auto; margin-right: auto" />
 
 ### Ate a Burger
-<img src="./img/readmeateBurger.jpg" alt="Ate burger showcase" style="margin-left: auto; margin-right: auto" />
+<img src="./img/readme/ateBurger.jpg" alt="Ate burger showcase" style="margin-left: auto; margin-right: auto" />
 
 ### To clear the list...
 - There is a "Clean the evidence" button at the top right, which will *DELETE* all entries in the database
